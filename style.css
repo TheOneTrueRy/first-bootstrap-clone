@@ -1,0 +1,12 @@
+/* SECTION elements */
+
+header{
+  background: rgb(82,155,202);
+  background: linear-gradient(0deg, rgba(82,155,202,1) 0%, rgba(149,205,232,1) 100%); 
+}
+
+/* SECTION classes */
+
+.smol{
+  font-size: x-small;
+}
