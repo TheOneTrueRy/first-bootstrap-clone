@@ -50,7 +50,7 @@ footer{
 }
 
 .titleText {
-  max-width: 100%;
+  max-width: 50%;
   text-align: justify;
 }
 
@@ -84,6 +84,7 @@ footer{
 
 .iPhone{
   width: 250px;
+  height: 100%;
 }
 
 .rick{
