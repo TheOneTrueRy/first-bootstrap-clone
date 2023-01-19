@@ -17,8 +17,12 @@ header{
 }
 
 .glass-card{
-  background-color: rgba(0, 0, 0, 0.311);
-  border-radius: 25%;
+  background-color: rgba(0, 0, 0, 0.137);
+  border-radius: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titleText {
