@@ -27,7 +27,8 @@ footer{
 }
 
 .card-text{
-  margin-bottom: 8px;
+  color: white;
+  text-decoration: none;
 }
 
 .xsmol{
@@ -40,6 +41,7 @@ footer{
 }
 
 .glass-card{
+  margin-bottom: 8px;
   background-color: rgba(0, 0, 0, 0.137);
   border-radius: 20px;
   height: 35px;
