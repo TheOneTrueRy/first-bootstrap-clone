@@ -5,7 +5,30 @@ header{
   background: linear-gradient(0deg, rgba(82,155,202,1) 0%, rgba(149,205,232,1) 100%); 
 }
 
+footer{
+  background-color: #364049;
+}
+
 /* SECTION classes */
+
+.mycard:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+
+.mycard{
+  border-radius: 10px;
+  width: 23em;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.card-text{
+  margin-bottom: 8px;
+}
 
 .xsmol{
   font-size: x-small;
@@ -23,6 +46,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .titleText {
@@ -39,7 +63,38 @@ header{
   flex-direction: column;
 }
 
+.footer-text{
+  max-width: 50%;
+}
+
+.footer-card{
+  height: 30px;
+  width: 30px;
+  background-color: #414E57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.leadr{
+  font-family: 'Dancing Script', cursive;
+}
+
 .iPhone{
-  width: 150px;
-  /* height: 100%; */
+  width: 250px;
+}
+
+.rick{
+  width: 50vw;
+  height: 70vh;
+}
+
+.bg-blue{
+  background-color: #5DA1CE
+}
+
+.rickText{
+  max-width: 60%;
 }
