@@ -7,6 +7,35 @@ header{
 
 /* SECTION classes */
 
-.smol{
+.xsmol{
   font-size: x-small;
+  justify-content: center;
+}
+
+.smol{
+  font-size: small;
+}
+
+.glass-card{
+  background-color: rgba(0, 0, 0, 0.311);
+  border-radius: 25%;
+}
+
+.titleText {
+  max-width: 100%;
+  text-align: justify;
+}
+
+.title{
+  font-size: 2.2em;
+  margin-right: 15px;
+}
+
+.direction{
+  flex-direction: column;
+}
+
+.iPhone{
+  width: 150px;
+  /* height: 100%; */
 }

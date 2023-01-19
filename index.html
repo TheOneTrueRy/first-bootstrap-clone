@@ -6,26 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
   <title>Document</title>
 </head>
 
-<body>
+<body class="debug">
   
   <header>
     <div class="container-fluid text-light">
       <div class="row">
-        <div class="col-2 text-center mt-2">
+        <div class="col-2 text-center mt-3">
           <h5>109leadr</h5>
         </div>
-        <div class="col-2 offset-6 text-end mt-3">
-          <p class="smol">FEATURED</p>
+        <div class="col-2 offset-6 text-end mt-4">
+          <p class="xsmol">FEATURED</p>
         </div>
-        <div class="col-2 mt-3">
-          <p class="smol">START NOW</p>
+        <div class="col-2 mt-4">
+          <p class="xsmol">START NOW</p>
         </div>
       </div>
-      <div class="row mt-5">
-
+      <div class="row mt-4">
+        <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center title">Your jobs, <b>our news.</b></h1>
+            </div>
+            <div class="col-12">
+              <p class="xsmol titleText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptate, nam suscipit veniam mollitia nemo ducimus? Consequatur provident explicabo deleniti libero dolorum perferendis distinctio voluptatibus corporis! Ab ad dolorem quo!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-sm-none d-md-block">
+          <div class="row d-flex justify-content-center align-items-end">
+            <div class="col-6 d-sm-none d-md-block">
+              <img src="https://th.bing.com/th/id/R.7e22cf6c81f7ea2458e8e88925fdebd2?rik=kEZ9u8uRU6giVw&riu=http%3a%2f%2fwww.imore.com%2fsites%2fimore.com%2ffiles%2fstyles%2flarge%2fpublic%2ftopic_images%2f2014%2fiphone_6_plus_temp_topic_icon.png%3fitok%3d8XsuJ8xz&ehk=zutMle%2b9P0I3IoR6GrZd2Z%2fK11dNZXek15NEICzBUtI%3d&risl=&pid=ImgRaw&r=0" alt="Phone" class="iPhone">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
